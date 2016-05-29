@@ -1,0 +1,290 @@
+/*
+
+Style : Green Theme CSS
+Version : 1.0
+Author  : Surjith S M
+URI   : http://themeforest.net/user/surjithctly
+
+Copyright © All rights Reserved
+Surjith S M / @surjithctly
+
+*/
+/* 
+   COLOR PALLETTES : GREEN
+   ------------------------------------------------
+  
+   Green 1        : #4eae49;
+   Dark Grey      : #3b3b3b;
+   Medium Grey    : #5c5c5c;
+   Light Grey     : #818181;
+   Lightest Grey  : #C2C2C2;
+   White          : #ffffff;
+
+   
+   */
+/* ================================================
+   THEME SPECIFIC STYLES : VISUAL STYLES ONLY
+   ================================================ */
+/*White bg*/
+
+body,
+.pace .pace-progress {
+    background: #FFF;
+}
+/*Grey*/
+
+body,
+.timeline-content h2 {
+    color: #5c5c5c;
+}
+
+.nav-pills>li>a {
+    color: #C2C2C2;
+}
+
+.form-control:focus {
+    border-color: #C2C2C2;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #818181;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #C2C2C2;
+}
+/* green
+ * ----- */
+
+::-moz-selection {
+    background: #4eae49;
+    color: #FFF;
+}
+
+::selection {
+    background: #4eae49;
+    color: #FFF;
+}
+
+.header,
+.sub-header {
+    color: #FFF;
+    background-color: #4eae49;
+}
+/*color*/
+
+a,
+a:hover,
+a:focus,
+.speaker-info p,
+.highlighted-plan .price,
+.highlighted-plan .plan-name {
+    color: #4eae49;
+}
+
+.benefit-item .benefit-icon i {
+    color: #4eae49;
+}
+/*background*/
+
+.timeline::before {
+    background: #4eae49;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #FFF;
+    background-color: #4eae49;
+}
+/*border*/
+
+.timeline-bullet,
+.highlighted-plan {
+    border-color: #4eae49;
+}
+/*background color*/
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    background-color: #4eae49;
+}
+/* 
+  BUTTONS
+  ------- */
+
+.btn-default {
+    color: #4eae49;
+    border-color: #FFF;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active {
+    background-color: transparent;
+    border-color: #FFF;
+    color: #FFF;
+}
+
+.btn-primary {
+    background-color: #5c5c5c;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+    background-color: #3b3b3b;
+}
+
+.btn-success {
+    background-color: #4eae49;
+    border-color: #4eae49;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active {
+    background-color: #FFF;
+    border-color: #4eae49;
+    color: #4eae49;
+}
+
+.btn-outline {
+    color: #8C8C8C;
+    border-color: #CACACA;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    background-color: transparent;
+    border-color: #818181;
+    color: #8C8C8C;
+}
+
+/* Alert */
+
+#alert {
+    position: relative;
+}
+#alert:hover:after {
+    background: hsla(0,0%,0%,.8);
+    border-radius: 3px;
+    color: #f6f6f6;
+    content: 'Click to dismiss';
+    font: bold 12px/30px sans-serif;
+    height: 30px;
+    left: 50%;
+    margin-left: -60px;
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    width: 120px;
+}
+#alert:hover:before {
+    border-bottom: 10px solid hsla(0,0%,0%,.8);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    content: '';
+    height: 0;
+    left: 50%;
+    margin-left: -10px;
+    position: absolute;
+    top: 40px;
+    width: 0;
+}
+#alert:target {
+    display: none;
+}
+.alert {
+    z-index: 99;
+    padding: 0;
+    background-color: #33CC33;
+    background-image: -webkit-linear-gradient(135deg, transparent,
+                      transparent 25%, hsla(0,0%,0%,.05) 25%,
+                      hsla(0,0%,0%,.05) 50%, transparent 50%,
+                      transparent 75%, hsla(0,0%,0%,.05) 75%,
+                      hsla(0,0%,0%,.05));
+    background-image: -moz-linear-gradient(135deg, transparent,
+                      transparent 25%, hsla(0,0%,0%,.1) 25%,
+                      hsla(0,0%,0%,.1) 50%, transparent 50%,
+                      transparent 75%, hsla(0,0%,0%,.1) 75%,
+                      hsla(0,0%,0%,.1));
+    background-image: -ms-linear-gradient(135deg, transparent,
+                      transparent 25%, hsla(0,0%,0%,.1) 25%,
+                      hsla(0,0%,0%,.1) 50%, transparent 50%,
+                      transparent 75%, hsla(0,0%,0%,.1) 75%,
+                      hsla(0,0%,0%,.1));
+    background-image: -o-linear-gradient(135deg, transparent,
+                      transparent 25%, hsla(0,0%,0%,.1) 25%,
+                      hsla(0,0%,0%,.1) 50%, transparent 50%,
+                      transparent 75%, hsla(0,0%,0%,.1) 75%,
+                      hsla(0,0%,0%,.1));
+    background-image: linear-gradient(135deg, transparent,
+                      transparent 25%, hsla(0,0%,0%,.1) 25%,
+                      hsla(0,0%,0%,.1) 50%, transparent 50%,
+                      transparent 75%, hsla(0,0%,0%,.1) 75%,
+                      hsla(0,0%,0%,.1));
+    background-size: 20px 20px;
+    box-shadow: 0 5px 0 hsla(0,0%,0%,.1);
+    color: #f6f6f6;
+    display: block;
+    font: bold 16px/40px sans-serif;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: -45px;
+    width: 100%;
+    -webkit-animation: alert 1s ease forwards;
+       -moz-animation: alert 1s ease forwards;
+        -ms-animation: alert 1s ease forwards;
+         -o-animation: alert 1s ease forwards;
+            animation: alert 1s ease forwards;
+}
+
+@media (max-width:480px){
+  .alert{
+    font-size: 12px;
+  }
+}
+
+@media ( min-width: 481px ){
+  .alert{
+    font-size: 16px;
+  }
+}
+
+/* Animation */
+
+@-webkit-keyframes alert {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { top: 0; }
+}
+@-moz-keyframes alert {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { top: 0; }
+}
+@-ms-keyframes alert {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { top: 0; }
+}
+@-o-keyframes alert {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { top: 0; }
+}
+@keyframes alert {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { top: 0; }
+}
